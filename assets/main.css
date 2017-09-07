@@ -1,0 +1,78 @@
+body {
+    background: #F5F1D5;
+    font-size: 1.5em;
+}
+/*  Welcome Page  */
+
+.welcome-page {
+border: 1px solid black;
+height: 100vh;
+}
+
+.logo-container {
+margin: 0 auto;
+width: 1.8em;
+padding-top: 40vh;
+}
+
+.logo {
+margin: auto;
+border-left: 1px solid black;
+border-right: 1px solid black;
+text-align: center;
+}
+
+.logo:first-child {
+border-top: 1px solid black;
+color: #D35C4C;
+}
+
+.logo:nth-child(2) {
+color: #D35C4C;
+}
+
+.logo:last-child {
+border-bottom: 1px solid black;
+}
+
+/*  Intro  */
+
+.intro {
+    height: 100vh;
+    position: relative; 
+    background: #110f18;
+    font-family: monospace;
+    font-size: 20px;
+  }
+  
+  .pink-square {
+    height: 150px;
+    width: 150px;
+    background: #d35c4c;
+    color: #f5f1d5;
+    position: absolute;
+    transition: all 1s;
+  }
+  
+  .text-box {
+    background: transparent;
+    width: 300px;
+    padding: 30px 0 0 30px;
+  }
+  
+  .pink-square:first-child {
+  /*   margin: 30px 0 0 30px; */
+    top: 5%;
+    left: 10%
+  }
+  
+  .pink-square:last-child {
+    bottom: 25%;
+    right: 5%;
+  }
+  
+  .pink-square:last-child > .text-box {
+    text-align: right;
+    width: 200px;
+    transform: translate(-50%, 0);
+  }
