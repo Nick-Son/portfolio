@@ -576,18 +576,19 @@ img {
 	} 
 	
 	/* film / edu section */
+
 	.film-edu-section > .bottom-circle {
     top: 50%;
     left: -5%;
     height: 600px;
-    width: 600px;
+		width: 600px;
   }
   
   .top-circle {
     top: 20%;
     right: -50%;
     max-width: 750px;
-    max-height: 750px;
+		max-height: 750px;
   }
   
   .film-edu-section > .vert-heading-text {
@@ -618,4 +619,12 @@ img {
 		font-size: 4em;
 		height: 20%;
 	}
+}
+
+/* @media (min-width: 1500px) {
+	.top-circle {
+		top: 5%;
+		right: -10%;
+	
+	} */
 }
