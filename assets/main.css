@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     background: #F5F1D5;
     font-size: 1.5em;
@@ -75,4 +79,301 @@ border-bottom: 1px solid black;
     text-align: right;
     width: 200px;
     transform: translate(-50%, 0);
+  }
+
+/* Skills Section */
+.skills-section {
+    height: 100vh;
+    background: #110f18;
+    position: relative;
+  }
+  
+  .triangle-top-right {
+    /* display: inline-block; */
+    width: 0;
+    height: 0;
+    transition: all 1s;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 50vw 400px 0;
+    border-color: transparent #f5f1d5 transparent transparent;
+  }
+  
+  .triangle-bottom-left {
+    /* display: inline-block; */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: all 1s;
+    border-width: 400px 0 0 50vw;
+    border-color: transparent transparent transparent #f5f1d5;
+  }
+  
+  .skills-section > .vert-heading-text {
+    color: #d35c4c;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -85px;
+    top: 275px;
+    transition: all 1s;
+  }
+  
+  .things-i-do {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    transition: all 1s;
+  }
+  
+  li {
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Work Section */
+  img {
+    border-radius: 10px;
+    display: block;
+    float: right;
+    bottom: 12px;
+    width: 40%;
+    // margin-left: auto;
+    margin-right: 10px;
+    margin-top: 40vh;
+    border: 0.5px solid #d35c4c;
+  }
+  
+  .work-section {
+    min-height: 100vh;
+    // background: #f5f1d5;
+    background: #110f18;
+  }
+  
+  .side-section {
+    width: 55%;
+    height: 100vh;
+    background: #f5f1d5; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .side-section > .circle {
+    color: #f5f1d5;
+    background: #d35c4c;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 7em;
+    font-size: 2.1em;
+    text-align: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    transition: all 1s;
+  }
+  
+  .work-p {
+    position: absolute;
+    padding: 10%;
+    bottom: 5%;
+  }
+
+  /* Likes Section */
+  .likes-section {
+    background: #f5f1d5;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bottom-section {
+    position: relative;
+    height: 100vh;
+    transition: all 1s;
+  }
+  
+  .bottom-section > .large-circle {
+    width: 750px;
+    height:750px;
+    background: #110f18;
+    border-radius: 50%;
+    top: 30%;
+    left: -15%;
+    position: absolute;
+    transition: all 2s;
+  }
+  
+  .bottom-section > .large-circle > .small-circle {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    background: #d35c4c;
+    border-radius: 50%;
+    margin-top: 15%;
+    transition: all 1s;
+  }
+  
+  .vert-heading-text {
+    color: #d35c4c;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -60px;
+    top: 285px;
+    transition: all 1s;
+  }
+  
+  .things-i-like {
+    position: absolute;
+    right: 50%;
+    top: 40%;
+  }
+
+  /* Chef Section */
+  .chef-section {
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #f5f1d5;
+    position: relative;
+  }
+  
+  .chef-section > .triangle-top-left {
+    /* display: inline-block; */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50vh 70vw 0 0;
+    border-color: #110f18 transparent transparent transparent;
+    transition: all 1s;
+    position: absolute;
+  }
+  
+  .chef-section > .triangle-bottom-left {
+    /* display: inline-block; */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: all 1s;
+    border-width: 50vh 0 0 70vw;
+    border-color: transparent transparent transparent #110f18;
+  }
+  
+  .pink-circle {
+    background: #d35c4c;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transition: all 1s;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .chef-section > .vert-heading-text {
+    color: #f5f1d5;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -60px;
+    top: 285px;
+    transition: all 1s;
+  }
+  
+  .chef-history-text {
+    font-size: 16px;
+    width: 150px;
+    position: absolute;
+    right: 5%;
+    bottom: 20%
+  }
+  
+  .chef-section ul {
+    margin-top: 5px;
+  }
+
+  .chef-section li {
+      font-size: 16px;
+      color: black;
+  }
+
+  /* Film Edu Section */
+  .film-edu-section {
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #f5f1d5;
+    position: relative;
+    overflow: hidden;
+    max-width: 1250px;
+    transition: all 1s;
+  }
+  
+  .top-circle {
+    top: 3%;
+    right: -53%;
+    width: 60%;
+    height:0;
+    padding-bottom: 60%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #d35c4c;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bottom-circle {
+    width: 700px;
+    height:700px;
+    background: #110f18;
+    border-radius: 50%;
+    top: 60%;
+    left: -40%;
+    position: absolute;
+  }
+  
+   .film-edu-section > .vert-heading-text {
+    color: #110f18;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -30px;
+    top: 23%;
+    transition: all 1s;
+  }
+  
+  
+  .film-edu-section > .vert-heading-text:last-child {
+  /*   color: #f5f1d5; */
+    color: #f5f1d5;
+    top: 83%;
+    left: 195px;
+  }
+  
+  .film-work {
+    width: 220px;
+    position: absolute;
+    color: #110f18;
+    top: 20%;
+    right: 5%;
+  }
+  
+  .education {
+    width: 200px;
+    position: absolute;
+    color: #f5f1d5;
+    bottom: 5%;
+    left: 5%;
+  }
+  
+  .film-edu-section li {
+    padding: 4px;
   }
