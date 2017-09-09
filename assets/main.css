@@ -396,9 +396,9 @@ img {
 	position: relative;
 }
 .connect {
-	margin: 30px;
+	margin: 50px;
 	border: 1px solid #f5f1d5;
-	height: 100vh;
+	height: 90vh;
 	background: #110f18;
 	position: relative;
 }
@@ -409,7 +409,7 @@ img {
 	font-size: 40px;
 	padding: 20px;
 	width: 200px;
-	height: 50%;
+	height: 40%;
 	text-align: right;
 	float: right;
 	margin-right: -30px;
@@ -422,10 +422,155 @@ img {
 	font-size: 16px;
 	padding: 20px;
 	width: 200px;
-	height: 70%;
+	height: 20%;
 	text-align: right;
 	float: right;
 	margin-right: -30px;
+}
+
+.connect-wrapper > .connect > .links {
+	/* display: none; */
+	margin-top: 222px;
+}
+
+.links ul {
+	list-style: none;
+	text-align: center;
+	margin-top: -50%;
+	padding: 0;
+	margin-left:10px;
+  }
+  
+.links ul li {
+	list-style: none;
+	/* display: inline-block; */
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	background: #110f18;
+	border-radius: 50%;
+	font-size: 2em;
+	position: relative;
+	transition: .5s ease-in-out;
+	color: #262626;
+	z-index: 1;
+  }
+  
+.links ul li a {
+	color: white;
+  }
+  
+.links ul li a:hover {
+	color: #110f18;
+  }
+  
+.links ul li::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: .5s ease-in-out;
+	z-index: -1;
+  }
+  
+.links ul li:hover::before {
+	transform: scale(0.9);
+  }
+  
+.links ul li:hover {
+	color: white;
+  }
+
+/*  Form Section  */
+
+.form-wrapper {
+	background: #110f18;
+	height: auto;
+	display: inline-block;
+	width: 100vw;
+	position: relative;
+}
+
+.form-section {
+	position: relative;
+	min-height: 95vh;
+	background: #110f18;
+	margin:50px;
+	border: 1px solid #d35c4c;
+}
+
+.contact-form {
+	top: 20vh;
+	left: 25%;
+	position: relative;
+	color: #f5f1d5;
+	/* width: 70%; */
+}
+
+form {
+	
+}
+
+.contact-form h1 {
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: left;
+	color: #f5f1d5;
+	margin: -16px -16px 16px -16px;
+	padding-bottom: 20px;
+}
+
+.contact-form label {
+	display: block;
+	font-size: 0.6em;
+}
+
+input[type=text]{
+	margin-bottom: 20px;
+	margin-top: 5px;
+	/* padding-bottom: 10px; */
+	width: 50%;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #f5f1d5;
+	color: #f5f1d5;
+}
+
+.message-label {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: #f5f1d5;
+}
+
+textarea {
+	padding-top: 20px;
+	background: transparent;
+	color: #f5f1d5;
+	width: 50%;
+	resize: none;
+}
+
+button {
+	display: block;
+	margin: 10px;
+	padding: 10px 30px;
+	color: #f5f1d5;
+	background: #110f18;
+	border-radius: 15px;
+	font-size: 0.6em;
+	position: absolute;
+	right: 45%;
+}
+
+button:hover {
+	background: #F5F1D5;
+	color: #110f18;
 }
 
 /*--------------------------------------------*/
@@ -610,11 +755,80 @@ img {
 	
 	/* connect  */
 	.main-text {
-		margin-top: 35vh;
+		margin-top: 10%;
 		margin-right: 20%;
-		font-size: 4em;
+		font-size: 3.5em;
 		height: 20%;
 	}
+
+	.main-text p {
+		font-size: 0.3em;
+	}
+
+	.links ul {
+		list-style: none;
+		text-align: center;
+		margin-top: 10%;
+		padding: 0;
+		margin-left:10%;
+		}
+		
+	/* Contact Form  */
+	.contact-form {
+		position: absolute;
+		top: 60%;
+		/* display: block; */
+		max-width: 600px;
+		margin: -25% auto;
+		color: #f5f1d5;
+	}
+	.contact-form h1 {
+		padding: 20px 0;
+		font-size: 140%;
+		font-weight: 300;
+		text-align: left;
+		color: #f5f1d5;
+		/* margin: -16px -16px 16px -16px; */
+	}
+	
+	.contact-form label {
+		display: block;
+		margin:15px;
+		font-size: 1.2em;
+		/* padding: 10px; */
+	}
+	
+	.contact-form input {
+		color: #f5f1d5;
+		font-size: 1.1em;
+		display: block;
+		margin: 15px;
+		height: 20px;
+		width: 100%;
+		background: transparent;
+		border: 0;
+		border-bottom: 2px solid #f5f1d5;
+		padding-bottom: 10px;
+	}
+	
+	textarea {
+		background: transparent;
+		color: #f5f1d5;
+		font-size: 1.2em;
+		width: 100%;
+	}
+	
+	button {
+		position: absolute;
+		right: 0;
+		margin: 10px;
+		padding: 15px 32px;
+		color: #f5f1d5;
+		background: #110f18;
+		border-radius: 15px;
+		font-size: 1em;
+	}
+	
 }
 
 /* @media (min-width: 1500px) {

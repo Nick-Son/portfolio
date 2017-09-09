@@ -7,6 +7,7 @@
 		<title>Nick Sonner</title>
 		<link rel="stylesheet" href="/assets/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Julius+Sans+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta content="Nick Sonner" name="title">
     <meta content="" name="description">
     <meta itemprop="name" content="Nick Sonner">
@@ -159,7 +160,35 @@
 			<div class="main-text">Want to get in touch?
 				<p class="sub-text"> I'm always up for a coffee!</p>
 			</div>
+			<div class="links">
+				<ul>
+					<li><a href="#" class="fa fa-github"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-codepen"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>	
+					<li><a href="#" class="fa fa-vimeo"></a></li>
+				</ul>
+			</div>
+			
 		</section>
-	  </div>
+		</div>
+	<!-- Form Section -->
+	<div class="connect-wrapper">
+	<section class="form-section">
+		<div class="contact-form">
+				<h1>Contact Me</h1>
+				<form name="contact" action="thank-you" method="post">
+					<!-- <input type="hidden" name="form-name" value="contact"> -->
+					<label for="name">Name</label>
+					<input type="text" name="name" require="">
+					<label for="email">Email</label>
+					<input type="text" name="email" require="">
+					<label class="message-label" for="message">Message</label>
+					<textarea name="message" cols="30" rows="10" require=""></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+	</section>	
+</div>
 </body>
 </html>
