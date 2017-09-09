@@ -25,12 +25,21 @@
     <meta property="og:url" content="http://NickSonner.io">
     <meta property="og:image" content="">
     <meta property="og:site_name" content="Nick Sonner">
-    <meta property="og:locale" content="en_AU">
+		<meta property="og:locale" content="en_AU">
+		<!-- <script>
+        $(function() {
+          $.scrollify({
+            section : ".section-class-name",
+            // sectionName : "container",
+						scrollbars: true,
+          });
+        });
+      </script> -->
 </head>
 
 <body>
 	<!-- Landing Page -->
-  <section class="landing-section container">
+  <section class="landing-section section-class-name">
 		<div class="logo-container">
 			<div class="logo">NI</div>
 			<div class="logo">CK</div>
@@ -41,7 +50,7 @@
 	</section> 
 	
   <!-- Intro Section -->
-	<section class="intro container">
+	<section class="intro section-class-name">
 		<div class="pink-square">
 			<div class="text-box">
 			Hi, I'm Nick, a developer, filmmaker, game designer and  chef in a previous life.
@@ -162,11 +171,11 @@
 			</div>
 			<div class="links">
 				<ul>
-					<li><a href="#" class="fa fa-github"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-codepen"></a></li>
-					<li><a href="#" class="fa fa-linkedin"></a></li>	
-					<li><a href="#" class="fa fa-vimeo"></a></li>
+					<li><a href="https://github.com/Nick-Son" class="fa fa-github"></a></li>
+					<li><a href="https://twitter.com/Nick_Sonner" class="fa fa-twitter"></a></li>
+					<li><a href="https://codepen.io/n0s/" class="fa fa-codepen"></a></li>
+					<li><a href="https://www.linkedin.com/in/nicksonner/" class="fa fa-linkedin"></a></li>	
+					<li><a href="https://vimeo.com/nicksonner" class="fa fa-vimeo"></a></li>
 				</ul>
 			</div>
 			
@@ -177,7 +186,7 @@
 	<section class="form-section">
 		<div class="contact-form">
 				<h1>Contact Me</h1>
-				<form name="contact" action="thank-you" method="post">
+				<form name="contact" action="thank-you" netlify>
 					<!-- <input type="hidden" name="form-name" value="contact"> -->
 					<label for="name">Name</label>
 					<input type="text" name="name" require="">
