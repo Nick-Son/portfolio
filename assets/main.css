@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	/* max-width: 100%; */
+	max-width: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -536,25 +536,27 @@ img {
 .links ul {
 	list-style: none;
 	text-align: center;
-	margin-top: -50%;
+	margin-top: -70%;
 	padding: 0;
 	margin-left:10px;
   }
   
 .links ul li {
+	display: inline-block;
 	list-style: none;
-	/* display: inline-block; */
-	width: 2em;
-	height: 2em;
-	line-height: 2em;
+	margin-top: 5%;
+	width: 1.2em;
+	height: 1.2em;
+	line-height: 1.2em;
 	text-align: center;
 	background: #110f18;
 	border-radius: 50%;
-	font-size: 2em;
+	font-size: 1.2em;
 	position: relative;
 	transition: .5s ease-in-out;
 	color: #262626;
 	z-index: 1;
+	padding: 10px;
   }
   
 .links ul li a {
@@ -865,12 +867,28 @@ button:hover {
 		font-size: 0.3em;
 	}
 
+	.links ul li {
+		list-style: none;
+		/* display: inline-block; */
+		width: 2em;
+		height: 2em;
+		line-height: 2em;
+		text-align: center;
+		background: #110f18;
+		border-radius: 50%;
+		font-size: 2em;
+		position: relative;
+		transition: .5s ease-in-out;
+		color: #262626;
+		z-index: 1;
+		}
+
 	.links ul {
 		list-style: none;
 		text-align: center;
-		margin-top: 10%;
+		margin-top: 20%;
 		padding: 0;
-		margin-left:10%;
+		margin-left: -100%;
 		}
 		
 	/* Contact Form  */
