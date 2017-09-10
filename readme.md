@@ -41,6 +41,8 @@ Other additions I would like to make is to improve overall responsiveness, impro
 
 [Figma](https://www.figma.com/file/H5z6K6qANoc9z8b7agdJNTnH/Portfolio-Designs) (includes style guide)
 
+[Pintrest reference board](https://au.pinterest.com/nicksonner/portfolio/)
+
 
 
 
