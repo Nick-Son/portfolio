@@ -45,6 +45,96 @@ body {
 	border-bottom: 1px solid black;
 }
 
+/* Nav menu */
+.menu-button {
+  height: 30px;
+  width: 30px;
+  padding-top: -10px;
+  border-top: 2px solid #110f18;
+  border-bottom: 2px solid #110f18;
+  background: transparent;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+#menu {
+	display: none;
+  opacity: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.links {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.nav-button-r {
+  color: #F5F1D5;
+  font-size: .6em;
+  line-height: 5.5em;
+  text-align: center;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background: #D35C4C;
+  margin: 5px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.nav-button-r:hover {
+  background: #F5F1D5;
+  color: #D35C4C;
+  transition: all 0.5s;
+}
+
+.nav-button {
+  color: #F5F1D5;
+  font-size: .6em;
+  line-height: 5.5em;
+  text-align: center;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background: #110f18;
+  margin: 5px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.nav-button:hover {
+  background: #F5F1D5;
+  color: #110f18;
+  transition: 0.5s;
+}
+
+
+#menu-toggle {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  right: -2px; 
+  opacity: 0;
+  z-index: 2;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+  animation: fadein 1s;
+  opacity: 1;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 /*  Intro  */
 
 .intro {
@@ -52,6 +142,12 @@ body {
 	position: relative; 
 	background: #110f18;
 	font-size: 20px;
+}
+
+.intro a {
+	position: absolute;
+	top: 0;
+	left: 0:
 }
   
 .pink-square {
@@ -69,7 +165,7 @@ body {
 	padding: 30px 0 0 30px;
 }
 
-.pink-square:first-child {
+.pink-square:nth-child(2) {
 /*   margin: 30px 0 0 30px; */
 	top: 5%;
 	left: 10%
@@ -596,10 +692,10 @@ button:hover {
 		font-size: 1.3em;
 	}
 
-  .pink-square:first-child {
+  .pink-square:nth-child(2) {
     top: 30%;
     left: 35%;
-  }
+	}
   
   .pink-square:last-child {
     right: 35%;
