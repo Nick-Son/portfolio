@@ -17,8 +17,6 @@ My approach was to create a site with simple geometric shapes, using a limited c
 *Shibui:*
 >Simple, subtle, unobtrusive beauty is the ultimate goal for any design
 
-My intention was to provide a short guide through information about myself..............
-
 ## Design methodology | Contruction
 My approach to building the site was first to prototype each section in Codepen, then, later transfer and combine the working code to Visual Studio Code. As each page/section had a unique design, the 'block by block' approach made the process much easier to conceptualise, and allow me to preview how each section would work together, hopefully minimising future layout issues.
 
@@ -32,7 +30,7 @@ The main challenge for this project comes from the complexity of constructing th
 ## Future Implementation | To do list
 At time of wrting I have tried to incorporate 'Scrollify' a jQuery plugin that allows site scrolling to be customised and alow smooth snaps to sections. As I wanted users to view each section in its entirety, one at a time, and not to experience two halves of two different sectiions, "scrollify" seemed like a perfect solution to that problem.
 
-Other additions I would like to make is to improve overall responsiveness, improve the navigation experience, have the content better formated, and perhaps incorporate some subtle animations throughout the site.
+Other additions I would like to make is to improve overall responsiveness, improve the navigation experience, have the content better formated, and perhaps incorporate some subtle animations throughout the site. In the comming weeks, I intend to start a blog about my coding journey, and will include a link on my site.
 
 ### Links
 ---
