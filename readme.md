@@ -6,7 +6,7 @@
 ## Initial design | Inspiration
 From my research into other developer's portfolio sites, the continual issue I kept noticing throughout was design at the  cost of usability and navigation.
 
-The creators would implement many ??? visual and design flourishes, which, while interesting and novel, ultimately distracted from the user experience. Interestingly enough, the most frequent offenders were UI/UX designers.
+The creators would implement certain visual and design flourishes, which, while interesting and novel, ultimately distracted from the user experience. Interestingly enough, the most frequent offenders were UI/UX designers.
 
 These novel design choices brought up an interesting dilemma. How to balance user engagement while still offereing something memorable that sets it apart from the competition, while maintaining a cohesive visual design, flow of content and usability.
 
@@ -14,8 +14,6 @@ From the beginning, I wanted my design to be simple, elegant, aesthetically plea
 
 My approach was to create a site with simple geometric shapes, using a limited colour palette of muted hues and an aesthtically pleasing typography. Visually, I was inspired by constructivism art, russian artist Kazmir Malevich and Japanese minimalism.
 
-*Shibui:*
->Simple, subtle, unobtrusive beauty is the ultimate goal for any design
 
 ## Design methodology | Contruction
 My approach to building the site was first to prototype each section in Codepen, then, later transfer and combine the working code to Visual Studio Code. As each page/section had a unique design, the 'block by block' approach made the process much easier to conceptualise, and allow me to preview how each section would work together, hopefully minimising future layout issues.
