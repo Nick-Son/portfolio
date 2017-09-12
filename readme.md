@@ -2,9 +2,11 @@
 
 # Portfolio Documentation
 ---
+## Aim
+The intention for my portfolio was to create a simple yet striking site, that had a unique visual design, and for the content to have a layout informed by the design. As prospective employers or collaborators would hopefully visit my site, I wanted the content to be concise and conversational in tone, to convey a sense of friendliness and openess, and not bog down the visitor with exessive amounts of text-based content, leaving their experience brief and memorable.
 
 ## Initial design | Inspiration
-From my research into other developer's portfolio sites, the continual issue I kept noticing throughout was design at the  cost of usability and navigation.
+From my research into other developer's portfolio sites, a continual issue I kept noticing throughout was design at the  cost of usability and navigation.
 
 The creators would implement certain visual and design flourishes, which, while interesting and novel, ultimately distracted from the user experience. Interestingly enough, the most frequent offenders were UI/UX designers.
 
@@ -13,6 +15,17 @@ These novel design choices brought up an interesting dilemma. How to balance use
 From the beginning, I wanted my design to be simple, elegant, aesthetically pleasing, memorable and easy to navigate without overwhelming the user with excessive design elements, novelty and large quantities of text based content.
 
 My approach was to create a site with simple geometric shapes, using a limited colour palette of muted hues and an aesthtically pleasing typography. Visually, I was inspired by constructivism art, russian artist Kazmir Malevich and Japanese minimalism.
+
+Using Pintrest, I collected a library of refrence images that would inform my choices in composition, layout, colour scheme and typography.
+
+![](https://1drv.ms/i/s!ApP0B1-peJm7hJ8X73ydae6pdB5Vzg)
+
+[Pintrest reference board](https://au.pinterest.com/nicksonner/portfolio/)
+
+After gathering a sufficient amount of reference images, and had a strong direction I wanted to take visually, I began creating my designs in Figma
+
+
+[Figma](https://www.figma.com/file/H5z6K6qANoc9z8b7agdJNTnH/Portfolio-Designs) (includes style guide)
 
 
 ## Design methodology | Contruction
