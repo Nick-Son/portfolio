@@ -22,8 +22,10 @@ Using Pintrest, I collected a library of refrence images that would inform my ch
 
 [Pintrest reference board](https://au.pinterest.com/nicksonner/portfolio/)
 
-After gathering a sufficient amount of reference images, and had a strong direction I wanted to take visually, I began creating my designs in Figma
+After gathering a sufficient amount of reference images, and had a strong direction I wanted to take visually, I began sketching out ideas on paper, drawing various types of styles on the one page, so I could get a 'bird's eye' view of all the possibilities at that point. After I was happy with some of the designs, I started to re-create and remould them in Figma.
 
+
+![](https://i.pinimg.com/564x/61/e5/16/61e51609b2d27034fd637a9a1b10f550.jpg)
 
 [Figma](https://www.figma.com/file/H5z6K6qANoc9z8b7agdJNTnH/Portfolio-Designs) (includes style guide)
 
