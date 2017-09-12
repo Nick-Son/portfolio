@@ -45,6 +45,22 @@ At time of wrting I have tried to incorporate 'Scrollify' a jQuery plugin that a
 
 Other additions I would like to make is to improve overall responsiveness, improve the navigation experience, have the content better formated, and perhaps incorporate some subtle animations throughout the site. In the comming weeks, I intend to start a blog about my coding journey, and will include a link on my site.
 
+## Tools Used
+- Visual Studio Code
+- Git
+- Codepen.io
+- Figma
+- Pintrest
+- Pen
+- Paper
+
+## Test Bed
+- Chrome
+- Firefox
+- Vivaldi
+- Nextbit Robin (android 7.1.1)
+- Surface Pro 2
+
 ### Links
 ---
 
