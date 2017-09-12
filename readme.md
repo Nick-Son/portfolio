@@ -18,7 +18,7 @@ My approach was to create a site with simple geometric shapes, using a limited c
 
 Using Pintrest, I collected a library of refrence images that would inform my choices in composition, layout, colour scheme and typography.
 
-![](https://1drv.ms/i/s!ApP0B1-peJm7hJ8X73ydae6pdB5Vzg)
+![](https://s-media-cache-ak0.pinimg.com/originals/68/35/29/683529b38c69c5d08923b4183e6cef9c.png)
 
 [Pintrest reference board](https://au.pinterest.com/nicksonner/portfolio/)
 
